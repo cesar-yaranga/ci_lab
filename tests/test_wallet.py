@@ -19,6 +19,3 @@ def test_monto_inicial_billetera_vacia(empty_wallet):
 def test_wallet_add_cash(wallet):
     wallet.add_cash(80)
     assert wallet.balance == 100
-
-
-
